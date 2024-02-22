@@ -168,7 +168,9 @@ pipeline {
 }
 ```
 
-    
+Livro Recomendado: https://www.amazon.com.br/Design-Patterns-Laravel-Kelt-Dockins/dp/1484224507
+
+![image](https://github.com/julian-gamboa-ensino/curso-php-chile/assets/78002411/a1c58a74-df79-4cde-bcc4-bf71e85730ea)
 
 
 
