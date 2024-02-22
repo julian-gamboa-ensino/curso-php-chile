@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/julian/php_laravel/template_mvc/template_basico/app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=9.2.30" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=9.2.30" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=9.2.30" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/home/julian/php_laravel/template_mvc/template_basico/app</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Exceptions/Handler.php.html#8">App\Exceptions\Handler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ConfirmPasswordController.php.html#9">App\Http\Controllers\Auth\ConfirmPasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#9">App\Http\Controllers\Auth\LoginController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#12">App\Http\Controllers\Auth\RegisterController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/VerificationController.php.html#9">App\Http\Controllers\Auth\VerificationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#7">App\Http\Controllers\AuthController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#9">App\Http\Controllers\CarroController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#9">App\Http\Controllers\ClienteController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#7">App\Http\Controllers\HomeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#9">App\Http\Controllers\LocacaoController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#10">App\Http\Controllers\MarcaController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#10">App\Http\Controllers\ModeloController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#7">App\Http\Middleware\Authenticate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#10">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/TrustHosts.php.html#7">App\Http\Middleware\TrustHosts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Carro.php.html#8">App\Models\Carro</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Cliente.php.html#8">App\Models\Cliente</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Locacao.php.html#8">App\Models\Locacao</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Marca.php.html#8">App\Models\Marca</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Modelo.php.html#8">App\Models\Modelo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#11">App\Models\User</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#8">App\Providers\BroadcastServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repositories/AbstractRepository.php.html#7">App\Repositories\AbstractRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Kernel.php.html#8">App\Console\Kernel</a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#10">App\Http\Controllers\MarcaController</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#10">App\Http\Controllers\ModeloController</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#9">App\Http\Controllers\CarroController</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#9">App\Http\Controllers\LocacaoController</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#9">App\Http\Controllers\ClienteController</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Repositories/AbstractRepository.php.html#7">App\Repositories\AbstractRepository</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#7">App\Http\Controllers\AuthController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#10">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#7">App\Http\Middleware\Authenticate</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Console/Kernel.php.html#25"><abbr title="App\Console\Kernel::schedule">schedule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handler.php.html#34"><abbr title="App\Exceptions\Handler::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ConfirmPasswordController.php.html#36"><abbr title="App\Http\Controllers\Auth\ConfirmPasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#36"><abbr title="App\Http\Controllers\Auth\LoginController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#39"><abbr title="App\Http\Controllers\Auth\RegisterController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#50"><abbr title="App\Http\Controllers\Auth\RegisterController::validator">validator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#65"><abbr title="App\Http\Controllers\Auth\RegisterController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/VerificationController.php.html#36"><abbr title="App\Http\Controllers\Auth\VerificationController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#9"><abbr title="App\Http\Controllers\AuthController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#30"><abbr title="App\Http\Controllers\AuthController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#35"><abbr title="App\Http\Controllers\AuthController::refresh">refresh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#40"><abbr title="App\Http\Controllers\AuthController::me">me</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#11"><abbr title="App\Http\Controllers\CarroController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#20"><abbr title="App\Http\Controllers\CarroController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#47"><abbr title="App\Http\Controllers\CarroController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#58"><abbr title="App\Http\Controllers\CarroController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#78"><abbr title="App\Http\Controllers\CarroController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#94"><abbr title="App\Http\Controllers\CarroController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#106"><abbr title="App\Http\Controllers\CarroController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#145"><abbr title="App\Http\Controllers\CarroController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#11"><abbr title="App\Http\Controllers\ClienteController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#20"><abbr title="App\Http\Controllers\ClienteController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#41"><abbr title="App\Http\Controllers\ClienteController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#58"><abbr title="App\Http\Controllers\ClienteController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#75"><abbr title="App\Http\Controllers\ClienteController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#114"><abbr title="App\Http\Controllers\ClienteController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#14"><abbr title="App\Http\Controllers\HomeController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#24"><abbr title="App\Http\Controllers\HomeController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#11"><abbr title="App\Http\Controllers\LocacaoController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#20"><abbr title="App\Http\Controllers\LocacaoController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#40"><abbr title="App\Http\Controllers\LocacaoController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#51"><abbr title="App\Http\Controllers\LocacaoController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#75"><abbr title="App\Http\Controllers\LocacaoController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#91"><abbr title="App\Http\Controllers\LocacaoController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#103"><abbr title="App\Http\Controllers\LocacaoController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#142"><abbr title="App\Http\Controllers\LocacaoController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#12"><abbr title="App\Http\Controllers\MarcaController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#20"><abbr title="App\Http\Controllers\MarcaController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#48"><abbr title="App\Http\Controllers\MarcaController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#59"><abbr title="App\Http\Controllers\MarcaController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#80"><abbr title="App\Http\Controllers\MarcaController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#96"><abbr title="App\Http\Controllers\MarcaController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#108"><abbr title="App\Http\Controllers\MarcaController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#158"><abbr title="App\Http\Controllers\MarcaController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#12"><abbr title="App\Http\Controllers\ModeloController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#21"><abbr title="App\Http\Controllers\ModeloController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#48"><abbr title="App\Http\Controllers\ModeloController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#59"><abbr title="App\Http\Controllers\ModeloController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#85"><abbr title="App\Http\Controllers\ModeloController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#101"><abbr title="App\Http\Controllers\ModeloController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#113"><abbr title="App\Http\Controllers\ModeloController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#171"><abbr title="App\Http\Controllers\ModeloController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#15"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#20"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/TrustHosts.php.html#14"><abbr title="App\Http\Middleware\TrustHosts::hosts">hosts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Carro.php.html#13"><abbr title="App\Models\Carro::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Carro.php.html#22"><abbr title="App\Models\Carro::modelo">modelo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Cliente.php.html#14"><abbr title="App\Models\Cliente::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Locacao.php.html#23"><abbr title="App\Models\Locacao::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Marca.php.html#13"><abbr title="App\Models\Marca::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Marca.php.html#26"><abbr title="App\Models\Marca::feedback">feedback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Marca.php.html#35"><abbr title="App\Models\Marca::modelos">modelos</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Modelo.php.html#14"><abbr title="App\Models\Modelo::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Modelo.php.html#26"><abbr title="App\Models\Modelo::marca">marca</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#52"><abbr title="App\Models\User::getJWTIdentifier">getJWTIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#62"><abbr title="App\Models\User::getJWTCustomClaims">getJWTCustomClaims</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#15"><abbr title="App\Providers\BroadcastServiceProvider::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repositories/AbstractRepository.php.html#9"><abbr title="App\Repositories\AbstractRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repositories/AbstractRepository.php.html#13"><abbr title="App\Repositories\AbstractRepository::selectAtributosRegistrosRelacionados">selectAtributosRegistrosRelacionados</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repositories/AbstractRepository.php.html#18"><abbr title="App\Repositories\AbstractRepository::filtro">filtro</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repositories/AbstractRepository.php.html#29"><abbr title="App\Repositories\AbstractRepository::selectAtributos">selectAtributos</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repositories/AbstractRepository.php.html#33"><abbr title="App\Repositories\AbstractRepository::getResultado">getResultado</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repositories/AbstractRepository.php.html#37"><abbr title="App\Repositories\AbstractRepository::getResultadoPaginado">getResultadoPaginado</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/RouteServiceProvider.php.html#57"><abbr title="App\Providers\RouteServiceProvider::configureRateLimiting">configureRateLimiting</abbr></a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#108"><abbr title="App\Http\Controllers\MarcaController::update">update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#113"><abbr title="App\Http\Controllers\ModeloController::update">update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#106"><abbr title="App\Http\Controllers\CarroController::update">update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#75"><abbr title="App\Http\Controllers\ClienteController::update">update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#103"><abbr title="App\Http\Controllers\LocacaoController::update">update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#20"><abbr title="App\Http\Controllers\CarroController::index">index</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#20"><abbr title="App\Http\Controllers\MarcaController::index">index</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#21"><abbr title="App\Http\Controllers\ModeloController::index">index</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#20"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#20"><abbr title="App\Http\Controllers\ClienteController::index">index</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#20"><abbr title="App\Http\Controllers\LocacaoController::index">index</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#9"><abbr title="App\Http\Controllers\AuthController::login">login</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#78"><abbr title="App\Http\Controllers\CarroController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/CarroController.php.html#145"><abbr title="App\Http\Controllers\CarroController::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#58"><abbr title="App\Http\Controllers\ClienteController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ClienteController.php.html#114"><abbr title="App\Http\Controllers\ClienteController::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#75"><abbr title="App\Http\Controllers\LocacaoController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/LocacaoController.php.html#142"><abbr title="App\Http\Controllers\LocacaoController::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#80"><abbr title="App\Http\Controllers\MarcaController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/MarcaController.php.html#158"><abbr title="App\Http\Controllers\MarcaController::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#85"><abbr title="App\Http\Controllers\ModeloController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ModeloController.php.html#171"><abbr title="App\Http\Controllers\ModeloController::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#15"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repositories/AbstractRepository.php.html#18"><abbr title="App\Repositories\AbstractRepository::filtro">filtro</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/RouteServiceProvider.php.html#57"><abbr title="App\Providers\RouteServiceProvider::configureRateLimiting">configureRateLimiting</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.30</a> using <a href="https://secure.php.net/" target="_top">PHP 8.3.3-1+ubuntu22.04.1+deb.sury.org+1</a> and <a href="https://phpunit.de/">PHPUnit 9.6.16</a> at Thu Feb 22 19:14:03 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=9.2.30" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=9.2.30" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=9.2.30" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([23,0,0,0,0,0,0,1,0,0,1,17], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([73,0,0,0,0,0,0,1,0,0,0,6], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[66.66666666666666,2,"<a href=\"Console\/Kernel.php.html#8\">App\\Console\\Kernel<\/a>"],[0,1,"<a href=\"Exceptions\/Handler.php.html#8\">App\\Exceptions\\Handler<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ConfirmPasswordController.php.html#9\">App\\Http\\Controllers\\Auth\\ConfirmPasswordController<\/a>"],[100,0,"<a href=\"Http\/Controllers\/Auth\/ForgotPasswordController.php.html#8\">App\\Http\\Controllers\\Auth\\ForgotPasswordController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#9\">App\\Http\\Controllers\\Auth\\LoginController<\/a>"],[0,3,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#12\">App\\Http\\Controllers\\Auth\\RegisterController<\/a>"],[100,0,"<a href=\"Http\/Controllers\/Auth\/ResetPasswordController.php.html#9\">App\\Http\\Controllers\\Auth\\ResetPasswordController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/VerificationController.php.html#9\">App\\Http\\Controllers\\Auth\\VerificationController<\/a>"],[0,5,"<a href=\"Http\/Controllers\/AuthController.php.html#7\">App\\Http\\Controllers\\AuthController<\/a>"],[0,17,"<a href=\"Http\/Controllers\/CarroController.php.html#9\">App\\Http\\Controllers\\CarroController<\/a>"],[0,14,"<a href=\"Http\/Controllers\/ClienteController.php.html#9\">App\\Http\\Controllers\\ClienteController<\/a>"],[100,0,"<a href=\"Http\/Controllers\/Controller.php.html#10\">App\\Http\\Controllers\\Controller<\/a>"],[0,2,"<a href=\"Http\/Controllers\/HomeController.php.html#7\">App\\Http\\Controllers\\HomeController<\/a>"],[0,16,"<a href=\"Http\/Controllers\/LocacaoController.php.html#9\">App\\Http\\Controllers\\LocacaoController<\/a>"],[0,18,"<a href=\"Http\/Controllers\/MarcaController.php.html#10\">App\\Http\\Controllers\\MarcaController<\/a>"],[0,18,"<a href=\"Http\/Controllers\/ModeloController.php.html#10\">App\\Http\\Controllers\\ModeloController<\/a>"],[100,0,"<a href=\"Http\/Kernel.php.html#7\">App\\Http\\Kernel<\/a>"],[0,2,"<a href=\"Http\/Middleware\/Authenticate.php.html#7\">App\\Http\\Middleware\\Authenticate<\/a>"],[100,0,"<a href=\"Http\/Middleware\/EncryptCookies.php.html#7\">App\\Http\\Middleware\\EncryptCookies<\/a>"],[100,0,"<a href=\"Http\/Middleware\/PreventRequestsDuringMaintenance.php.html#7\">App\\Http\\Middleware\\PreventRequestsDuringMaintenance<\/a>"],[0,4,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#10\">App\\Http\\Middleware\\RedirectIfAuthenticated<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrimStrings.php.html#7\">App\\Http\\Middleware\\TrimStrings<\/a>"],[0,1,"<a href=\"Http\/Middleware\/TrustHosts.php.html#7\">App\\Http\\Middleware\\TrustHosts<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrustProxies.php.html#8\">App\\Http\\Middleware\\TrustProxies<\/a>"],[100,0,"<a href=\"Http\/Middleware\/VerifyCsrfToken.php.html#7\">App\\Http\\Middleware\\VerifyCsrfToken<\/a>"],[0,2,"<a href=\"Models\/Carro.php.html#8\">App\\Models\\Carro<\/a>"],[0,1,"<a href=\"Models\/Cliente.php.html#8\">App\\Models\\Cliente<\/a>"],[0,1,"<a href=\"Models\/Locacao.php.html#8\">App\\Models\\Locacao<\/a>"],[0,3,"<a href=\"Models\/Marca.php.html#8\">App\\Models\\Marca<\/a>"],[0,2,"<a href=\"Models\/Modelo.php.html#8\">App\\Models\\Modelo<\/a>"],[0,2,"<a href=\"Models\/User.php.html#11\">App\\Models\\User<\/a>"],[100,2,"<a href=\"Providers\/AppServiceProvider.php.html#7\">App\\Providers\\AppServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#8\">App\\Providers\\AuthServiceProvider<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#8\">App\\Providers\\BroadcastServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#10\">App\\Providers\\EventServiceProvider<\/a>"],[92.3076923076923,3,"<a href=\"Providers\/RouteServiceProvider.php.html#11\">App\\Providers\\RouteServiceProvider<\/a>"],[0,7,"<a href=\"Repositories\/AbstractRepository.php.html#7\">App\\Repositories\\AbstractRepository<\/a>"],[100,0,"<a href=\"Repositories\/CarroRepository.php.html#5\">App\\Repositories\\CarroRepository<\/a>"],[100,0,"<a href=\"Repositories\/ClienteRepository.php.html#5\">App\\Repositories\\ClienteRepository<\/a>"],[100,0,"<a href=\"Repositories\/LocacaoRepository.php.html#5\">App\\Repositories\\LocacaoRepository<\/a>"],[100,0,"<a href=\"Repositories\/MarcaRepository.php.html#5\">App\\Repositories\\MarcaRepository<\/a>"],[100,0,"<a href=\"Repositories\/ModeloRepository.php.html#5\">App\\Repositories\\ModeloRepository<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Console\/Kernel.php.html#25\">App\\Console\\Kernel::schedule<\/a>"],[100,1,"<a href=\"Console\/Kernel.php.html#35\">App\\Console\\Kernel::commands<\/a>"],[0,1,"<a href=\"Exceptions\/Handler.php.html#34\">App\\Exceptions\\Handler::register<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ConfirmPasswordController.php.html#36\">App\\Http\\Controllers\\Auth\\ConfirmPasswordController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#36\">App\\Http\\Controllers\\Auth\\LoginController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#39\">App\\Http\\Controllers\\Auth\\RegisterController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#50\">App\\Http\\Controllers\\Auth\\RegisterController::validator<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#65\">App\\Http\\Controllers\\Auth\\RegisterController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/VerificationController.php.html#36\">App\\Http\\Controllers\\Auth\\VerificationController::__construct<\/a>"],[0,2,"<a href=\"Http\/Controllers\/AuthController.php.html#9\">App\\Http\\Controllers\\AuthController::login<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#30\">App\\Http\\Controllers\\AuthController::logout<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#35\">App\\Http\\Controllers\\AuthController::refresh<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#40\">App\\Http\\Controllers\\AuthController::me<\/a>"],[0,1,"<a href=\"Http\/Controllers\/CarroController.php.html#11\">App\\Http\\Controllers\\CarroController::__construct<\/a>"],[0,4,"<a href=\"Http\/Controllers\/CarroController.php.html#20\">App\\Http\\Controllers\\CarroController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/CarroController.php.html#47\">App\\Http\\Controllers\\CarroController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/CarroController.php.html#58\">App\\Http\\Controllers\\CarroController::store<\/a>"],[0,2,"<a href=\"Http\/Controllers\/CarroController.php.html#78\">App\\Http\\Controllers\\CarroController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/CarroController.php.html#94\">App\\Http\\Controllers\\CarroController::edit<\/a>"],[0,5,"<a href=\"Http\/Controllers\/CarroController.php.html#106\">App\\Http\\Controllers\\CarroController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/CarroController.php.html#145\">App\\Http\\Controllers\\CarroController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ClienteController.php.html#11\">App\\Http\\Controllers\\ClienteController::__construct<\/a>"],[0,3,"<a href=\"Http\/Controllers\/ClienteController.php.html#20\">App\\Http\\Controllers\\ClienteController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ClienteController.php.html#41\">App\\Http\\Controllers\\ClienteController::store<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ClienteController.php.html#58\">App\\Http\\Controllers\\ClienteController::show<\/a>"],[0,5,"<a href=\"Http\/Controllers\/ClienteController.php.html#75\">App\\Http\\Controllers\\ClienteController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ClienteController.php.html#114\">App\\Http\\Controllers\\ClienteController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#14\">App\\Http\\Controllers\\HomeController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#24\">App\\Http\\Controllers\\HomeController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/LocacaoController.php.html#11\">App\\Http\\Controllers\\LocacaoController::__construct<\/a>"],[0,3,"<a href=\"Http\/Controllers\/LocacaoController.php.html#20\">App\\Http\\Controllers\\LocacaoController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/LocacaoController.php.html#40\">App\\Http\\Controllers\\LocacaoController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/LocacaoController.php.html#51\">App\\Http\\Controllers\\LocacaoController::store<\/a>"],[0,2,"<a href=\"Http\/Controllers\/LocacaoController.php.html#75\">App\\Http\\Controllers\\LocacaoController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/LocacaoController.php.html#91\">App\\Http\\Controllers\\LocacaoController::edit<\/a>"],[0,5,"<a href=\"Http\/Controllers\/LocacaoController.php.html#103\">App\\Http\\Controllers\\LocacaoController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/LocacaoController.php.html#142\">App\\Http\\Controllers\\LocacaoController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/MarcaController.php.html#12\">App\\Http\\Controllers\\MarcaController::__construct<\/a>"],[0,4,"<a href=\"Http\/Controllers\/MarcaController.php.html#20\">App\\Http\\Controllers\\MarcaController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/MarcaController.php.html#48\">App\\Http\\Controllers\\MarcaController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/MarcaController.php.html#59\">App\\Http\\Controllers\\MarcaController::store<\/a>"],[0,2,"<a href=\"Http\/Controllers\/MarcaController.php.html#80\">App\\Http\\Controllers\\MarcaController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/MarcaController.php.html#96\">App\\Http\\Controllers\\MarcaController::edit<\/a>"],[0,6,"<a href=\"Http\/Controllers\/MarcaController.php.html#108\">App\\Http\\Controllers\\MarcaController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/MarcaController.php.html#158\">App\\Http\\Controllers\\MarcaController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ModeloController.php.html#12\">App\\Http\\Controllers\\ModeloController::__construct<\/a>"],[0,4,"<a href=\"Http\/Controllers\/ModeloController.php.html#21\">App\\Http\\Controllers\\ModeloController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ModeloController.php.html#48\">App\\Http\\Controllers\\ModeloController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ModeloController.php.html#59\">App\\Http\\Controllers\\ModeloController::store<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ModeloController.php.html#85\">App\\Http\\Controllers\\ModeloController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ModeloController.php.html#101\">App\\Http\\Controllers\\ModeloController::edit<\/a>"],[0,6,"<a href=\"Http\/Controllers\/ModeloController.php.html#113\">App\\Http\\Controllers\\ModeloController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ModeloController.php.html#171\">App\\Http\\Controllers\\ModeloController::destroy<\/a>"],[0,2,"<a href=\"Http\/Middleware\/Authenticate.php.html#15\">App\\Http\\Middleware\\Authenticate::redirectTo<\/a>"],[0,4,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#20\">App\\Http\\Middleware\\RedirectIfAuthenticated::handle<\/a>"],[0,1,"<a href=\"Http\/Middleware\/TrustHosts.php.html#14\">App\\Http\\Middleware\\TrustHosts::hosts<\/a>"],[0,1,"<a href=\"Models\/Carro.php.html#13\">App\\Models\\Carro::rules<\/a>"],[0,1,"<a href=\"Models\/Carro.php.html#22\">App\\Models\\Carro::modelo<\/a>"],[0,1,"<a href=\"Models\/Cliente.php.html#14\">App\\Models\\Cliente::rules<\/a>"],[0,1,"<a href=\"Models\/Locacao.php.html#23\">App\\Models\\Locacao::rules<\/a>"],[0,1,"<a href=\"Models\/Marca.php.html#13\">App\\Models\\Marca::rules<\/a>"],[0,1,"<a href=\"Models\/Marca.php.html#26\">App\\Models\\Marca::feedback<\/a>"],[0,1,"<a href=\"Models\/Marca.php.html#35\">App\\Models\\Marca::modelos<\/a>"],[0,1,"<a href=\"Models\/Modelo.php.html#14\">App\\Models\\Modelo::rules<\/a>"],[0,1,"<a href=\"Models\/Modelo.php.html#26\">App\\Models\\Modelo::marca<\/a>"],[0,1,"<a href=\"Models\/User.php.html#52\">App\\Models\\User::getJWTIdentifier<\/a>"],[0,1,"<a href=\"Models\/User.php.html#62\">App\\Models\\User::getJWTCustomClaims<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#14\">App\\Providers\\AppServiceProvider::register<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#24\">App\\Providers\\AppServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#24\">App\\Providers\\AuthServiceProvider::boot<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#15\">App\\Providers\\BroadcastServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#28\">App\\Providers\\EventServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#36\">App\\Providers\\RouteServiceProvider::boot<\/a>"],[66.66666666666666,2,"<a href=\"Providers\/RouteServiceProvider.php.html#57\">App\\Providers\\RouteServiceProvider::configureRateLimiting<\/a>"],[0,1,"<a href=\"Repositories\/AbstractRepository.php.html#9\">App\\Repositories\\AbstractRepository::__construct<\/a>"],[0,1,"<a href=\"Repositories\/AbstractRepository.php.html#13\">App\\Repositories\\AbstractRepository::selectAtributosRegistrosRelacionados<\/a>"],[0,2,"<a href=\"Repositories\/AbstractRepository.php.html#18\">App\\Repositories\\AbstractRepository::filtro<\/a>"],[0,1,"<a href=\"Repositories\/AbstractRepository.php.html#29\">App\\Repositories\\AbstractRepository::selectAtributos<\/a>"],[0,1,"<a href=\"Repositories\/AbstractRepository.php.html#33\">App\\Repositories\\AbstractRepository::getResultado<\/a>"],[0,1,"<a href=\"Repositories\/AbstractRepository.php.html#37\">App\\Repositories\\AbstractRepository::getResultadoPaginado<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

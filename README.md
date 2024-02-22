@@ -135,6 +135,41 @@ VOLUME /var/log/laravel
 
 # Template simples:
 
+Este template pode te ajudar para desenvolver uma aplicação tradicional (blog,comercio eletrônico, loja, etc.).  Para este curso recomendo usar o método TDD:
+
+```bash
+vendor/bin/phpunit --whitelist src/ --coverage-html cover/
+```
+
+Assim como o uso de um Jenkis para automação da esteira CI/CD
+
+```bash
+pipeline {
+    agent any
+
+    stages {
+        stage('Install Dependencies') {
+            steps {
+                sh 'composer install'
+            }
+        }
+        stage('Run Tests') {
+            steps {
+                sh 'vendor/bin/phpunit'
+            }
+        }
+        stage('Build and Deploy') {
+            steps {
+                sh 'php artisan migrate --force'
+                sh 'php artisan cache:clear'
+            }
+        }
+    }
+}
+```
+
+    
+
 
 
 
