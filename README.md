@@ -80,7 +80,7 @@ Route::get('/comentarios', ['ComentarioController::class', 'index']);
 '''
 No qual pode-se ver como saída do log:
 
-'''
+'''php
 (Illuminate\\Database\\QueryException(code: 0): could not find driver (Connection: mysql, SQL: select table_name as `name`, (data_length + index_length) as `size`, table_comment as `comment`, engine as `engine`, table_collation as `collation` from information_schema.tables where table_schema = 'laravel' and table_type in ('BASE TABLE', 'SYSTEM VERSIONED') order by table_name) 
 
 '''
