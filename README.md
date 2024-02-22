@@ -47,6 +47,9 @@ php artisan make:model Postagem -m
 php artisan make:model Comentario -m
 
 
+
+# No arquivo .end deve colocar: "DB_CONNECTION=sqlite"
+
 php artisan migrate
 
 
@@ -56,13 +59,33 @@ php artisan make:controller ComentarioController --resource
 
 ```
 
+E no projeto laravel coloque as informaçoes:
 
 ```php
-Route::resource('usuarios', 'UsuarioController');
-Route::resource('postagens', 'PostagemController');
-Route::resource('comentarios', 'ComentarioController');
+
+use App\Http\Controllers\PostagemController;
+use App\Http\Controllers\ComentarioController;
+use App\Http\Controllers\UsuarioController;
+
+//......................
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/usuarios', [UsuarioController::class, 'index']);
+Route::get('/postagens', ['PostagemController::class', 'index']);
+Route::get('/comentarios', ['ComentarioController::class', 'index']);
+
+'''
+No qual pode-se ver como saída do log:
+
+'''
+(Illuminate\\Database\\QueryException(code: 0): could not find driver (Connection: mysql, SQL: select table_name as `name`, (data_length + index_length) as `size`, table_comment as `comment`, engine as `engine`, table_collation as `collation` from information_schema.tables where table_schema = 'laravel' and table_type in ('BASE TABLE', 'SYSTEM VERSIONED') order by table_name) 
+
 '''
 
+## Docker 
 
 
 
