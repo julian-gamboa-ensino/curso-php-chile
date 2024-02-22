@@ -133,6 +133,11 @@ No qual pode-se defnir um volume local para guardar os logs na forma:
 VOLUME /var/log/laravel
 ```
 
+# Template simples:
+
+
+
+
 
 
 
