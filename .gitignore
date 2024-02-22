@@ -1,10 +1,10 @@
-/template_basico/vendor
+
 apagar
 fev-api-2024/
 lambda_fev_20/
 tarde-fev-20/
 
-
+template_mvc/template_basico/vendor/
 
 basico-fev-20
 /.phpunit.cache
